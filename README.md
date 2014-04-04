@@ -15,4 +15,4 @@ This part was also relatively straight forward. We had to perform math on the va
 
 # Part C
 
-First, I input 5 into port 3. This program is supposed to continuously subtract 1 from the previous value. I then added and F, which is hex for -1. After that, I added one which would essentially make the program subtract 1 from the initial value, which is what the program is supposed to do. At the end, I added a jmp, but I did not want it to jump back to the beginning and start with the input, so I had it jmp back to address 04. 
+First, I input 5 into port 3. This program is supposed to continuously subtract 1 from the previous value. I then added and F, which is hex for -1. After that, I added one which would essentially make the program subtract 1 from the initial value, which is what the program is supposed to do. At the end, I added a jmp, but I did not want it to jump back to the beginning and start with the input, so I had it jmp back to address 04. The output was then 2,1 0 and then the next time through, it ouput 1,0,F (which as stated above is -1 in hex). 
